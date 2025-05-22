@@ -11,6 +11,7 @@ set('keep_releases', 10);
 set('writable_mode', 'chmod');
 set('env', [
     'DATABASE_URL' => 'mysql://srv87156_shoppinglist:kochammajonez@127.0.0.1:3306/srv87156_shoppinglist?serverVersion=10.11.11-MariaDB-cll-lve&charset=utf8mb4',
+    'APP_ENV' => 'prod',
 ]);
 
 add('shared_files', []);
